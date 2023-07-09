@@ -5,4 +5,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  offset-distance: 10px ;
+  justify-content: center; 
+  flex-direction: column;
+  height: 400px;
+  gap: 10px;  
+}
+
