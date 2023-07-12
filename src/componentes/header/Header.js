@@ -9,8 +9,8 @@ function Header (){
     <div className= {styles.header}>
       <Title>Jogo da velha </Title>
       <Subtitulo> Criado por Peterson </Subtitulo>
-      <div>
-        <Icon/>
+      <div className = {styles.iconContent}>
+        <Icon iconNaeme = "github" link="http://github.com"/>
       </div>
     </div>
    
